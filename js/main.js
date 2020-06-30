@@ -1,13 +1,17 @@
 console.log('hola caracola');
 
-const patata = 'patata'
-
-function writeThis(word, number) {
-    for (let i = 0; i < number; i++){
-        console.log(word);
-    }
+function getRandomNumber(max) {
+  return Math.ceil(Math.random() * max);
 }
 
-ten(patata, 10);
-ten('Aguacate', 7);
-ten('Pizza', 50);
+const patata = 'patata';
+
+function writeThis(word, number) {
+  for (let i = 0; i < number; i++) {
+    console.log(word);
+  }
+}
+
+writeThis(patata, getRandomNumber(10));
+writeThis('Aguacate', getRandomNumber(10));
+writeThis('Pizza', getRandomNumber(10));

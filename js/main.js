@@ -2,10 +2,12 @@ console.log('hola caracola');
 
 const patata = 'patata'
 
-function ten() {
+function ten(word) {
     for (let i = 0; i < 10; i++){
-        console.log(patata);
+        console.log(word);
     }
 }
 
-ten();
+ten(patata);
+ten('Aguacate');
+ten('Pizza');

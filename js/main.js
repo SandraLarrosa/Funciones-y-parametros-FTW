@@ -2,12 +2,12 @@ console.log('hola caracola');
 
 const patata = 'patata'
 
-function ten(word) {
-    for (let i = 0; i < 10; i++){
+function writeThis(word, number) {
+    for (let i = 0; i < number; i++){
         console.log(word);
     }
 }
 
-ten(patata);
-ten('Aguacate');
-ten('Pizza');
+ten(patata, 10);
+ten('Aguacate', 7);
+ten('Pizza', 50);

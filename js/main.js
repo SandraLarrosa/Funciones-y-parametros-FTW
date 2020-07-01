@@ -8,6 +8,6 @@ function writeThis(word, number) {
     }
 }
 
-ten(patata, 10);
-ten('Aguacate', 7);
-ten('Pizza', 50);
+writeThis(patata, 5);
+writeThis('Aguacate', 27);
+writeThis('Pizza', 50);
